@@ -18,6 +18,7 @@
 .project h3 {
     font-size: 1.3rem;
 }
+
 .aside-elem {
     max-width: 400px;
     display: grid;
@@ -43,6 +44,24 @@
     font-family: sans-serif, Arial, Helvetica;
     padding: 10px;
     border-radius: 6px;
+}
+
+.trending-logo {
+    width: 50px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+
+.trending-content {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.trending-para {
+    margin-bottom: 30px;
 }
 
 .flex-container {
@@ -71,15 +90,15 @@
 }
 
 .search-container {
+    width: 80%;
     position: relative;
-    width: 70%;
     padding: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
 .search-container input[type="text"] {
-    width: 350px;
+    width: 100%;
     padding: 10px 40px;
     border-radius: 20px;
 }
@@ -107,6 +126,7 @@
     color: #223D4E;
     font-weight: bold;
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .about-logo {
@@ -150,21 +170,10 @@
     font-size: 1.4rem;
 }
 
-.trending-logo {
-    width: 50px;
-    border-radius: 100%;
-    margin-bottom: 20px;
-}
-
-.trending-content {
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    gap: 12px;
-    justify-content: center;
-    align-items: center;
-}
-
-.trending-para {
-    margin-bottom: 30px;
+@media screen and (max-width: 900px)
+{
+    .flex-container {
+        display: block;
+    }
 }
 
