@@ -18,8 +18,9 @@
 .project span {
     display: flex;
     gap: 20px;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
+    padding: 10px;
 }
 
 .project span i {
