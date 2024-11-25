@@ -1,0 +1,170 @@
+.projects-section {
+    max-width: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 25px;
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+.project {
+    background-color: #FDEFD3;
+    color: #223D4E;
+    border-left: 5px solid #003049;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.project h3 {
+    font-size: 1.3rem;
+}
+.aside-elem {
+    max-width: 400px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+
+.announcement-section {
+    background-color: #fdefd3;
+    color: #223D4E;
+    text-align: left;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.trending-section {
+    background-color: #fdefd3;
+    color: #223D4E;
+    text-align: left;
+    font-family: sans-serif, Arial, Helvetica;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.flex-container {
+    display: flex;
+    gap: 30px;
+}
+
+.dashboard-nav a {
+    display: flex;
+    gap: 15px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: sans-serif, Arial, Helvetica;
+    color: #000;
+
+}
+
+.dashboard {
+    max-width: 300px;
+    background-color: #669bbc;
+    color: #000;
+    padding: 10px;
+    text-align: left;
+}
+
+.search-container {
+    position: relative;
+    width: 70%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.search-container input[type="text"] {
+    width: 350px;
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+
+.search-container .fa-solid {
+    position: absolute;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif, Arial, Helvetica;
+    padding: 15px;
+}
+
+.about-button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid #fdefd3;
+    width: 80px;
+    background-color: #fdefd3;
+    color: #223D4E;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.about-logo {
+    width: 100px;
+    margin-right: 25px;
+    border-radius: 100%;
+}
+
+.logo-text-flex {
+    display: flex;
+}
+
+.left-item {
+    justify-self: start;
+}
+
+.right-item {
+    justify-self: end;
+}
+
+.heading-section {
+    background-color: #780000;
+    color: #FDF0D5; 
+}
+
+.studio-name {
+    font-weight: bold;
+}
+
+.fa-bell {
+    font-size: 30px;
+    color: #fdf0d5;
+}
+
+.fa-magnifying-glass {
+    color: #780000;
+}
+
+.ps-title {
+    font-family: sans-serif, Arial, Helvetica;
+    font-size: 1.4rem;
+}
+
+.trending-logo {
+    width: 50px;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+
+.trending-content {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.trending-para {
+    margin-bottom: 30px;
+}
+
